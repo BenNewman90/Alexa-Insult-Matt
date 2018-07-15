@@ -9,11 +9,13 @@ const {app} = require('./app.js');
 
 if (app.isWebhook()) {
     const port = process.env.PORT || 3000;
-    WebhookVerified.listen(port, () => {
-        console.log(`Example server listening on port ${port}!`);
-    });
+
     WebhookVerified.post('/webhook', (req, res) => {
         app.handleWebhook(req, res);
+    });
+
+    WebhookVerified.listen(port, () => {
+        console.log(`Example server listening on port ${port}!`);
     });
 }
 
