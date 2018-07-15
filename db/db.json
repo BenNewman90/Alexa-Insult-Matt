@@ -5,15 +5,15 @@
 			"data": {},
 			"metaData": {
 				"createdAt": "2018-07-15T17:27:13.317Z",
-				"lastUsedAt": "2018-07-15T18:17:48.686Z",
-				"sessionsCount": 11
+				"lastUsedAt": "2018-07-15T18:37:43.392Z",
+				"sessionsCount": 12
 			},
 			"context": {
 				"prev": [
 					{
 						"request": {
 							"intent": "AMAZON.StopIntent",
-							"timestamp": "2018-07-15T18:17:48Z"
+							"timestamp": "2018-07-15T18:37:42Z"
 						},
 						"response": {}
 					}
