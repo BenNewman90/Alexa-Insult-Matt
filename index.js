@@ -1,7 +1,7 @@
 'use strict';
 
 const {Webhook} = require('jovo-framework');
-const {app} = require('./app/app.js');
+const {app} = require('./app.js');
 
 // =================================================================================
 // Server Configuration
@@ -9,15 +9,16 @@ const {app} = require('./app/app.js');
 
 if (app.isWebhook()) {
     const port = process.env.PORT || 3000;
-    Webhook.listen(port, () => {
-        console.log(`Example server listening on port ${port}!`);
-    });
+
     Webhook.post('/webhook', (req, res) => {
         app.handleWebhook(req, res);
+    });
+
+    Webhook.listen(port, () => {
+        console.log(`Example server listening on port ${port}!`);
     });
 }
 
 exports.handler = (event, context, callback) => {
     app.handleLambda(event, context, callback);
 };
-

@@ -40,7 +40,7 @@ app.setHandler({
         this.ask("Welcome to Insult Matt! Matt is an interesting character. Who would like to insult him?", "Tell me your name dooch.");
     },
 
-    'MyNameIsIntent': function(name) {
+    'FirstInsultIntent': function(name) {
         this.ask("Hey Matt," + name.value + "wants to say this........." + insults[Math.floor(Math.random()*insults.length)] + ". Do you want some more?", "I'll take that as a no");
     },
 
