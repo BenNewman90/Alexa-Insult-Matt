@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "A sample voice app that works with the Jovo framework",
   "engines": {
-    "node": "3.5.2"
+    "node": "8.10.0"
   },
   "main": "index.js",
   "dependencies": {
