@@ -1,0 +1,24 @@
+[
+	{
+		"userId": "amzn1.ask.account.AGTP4K5PAWMDI7TQMKNG4GYSTBNDLT3EEFGWEKUKAOIPDVDQJJP4XU2P5UTNBURY3HDYWRSEWEXKXTVZY2MUV7ROAR55KPRUBASPIU5DKCCLCZ7H6DVFJBHLVLKIYMMQRAOIZ52FSDZJHEQGVSPJMCKZ4LOYUEQXPJZLBQKTF2ZPNQMEUAZSHAMOI5SHVNTTJAK6RLMZHRY3PIQ",
+		"userData": {
+			"data": {},
+			"metaData": {
+				"createdAt": "2018-07-15T19:17:32.756Z",
+				"lastUsedAt": "2018-07-15T19:20:52.082Z",
+				"sessionsCount": 3
+			},
+			"context": {
+				"prev": [
+					{
+						"request": {
+							"intent": "AMAZON.StopIntent",
+							"timestamp": "2018-07-15T19:20:51Z"
+						},
+						"response": {}
+					}
+				]
+			}
+		}
+	}
+]
