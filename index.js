@@ -1,6 +1,6 @@
 'use strict';
 
-const {Webhook} = require('jovo-framework');
+const {WebhookVerified} = require('jovo-framework');
 const {app} = require('./app/app.js');
 
 // =================================================================================
@@ -20,4 +20,3 @@ if (app.isWebhook()) {
 exports.handler = (event, context, callback) => {
     app.handleLambda(event, context, callback);
 };
-
