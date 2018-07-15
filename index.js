@@ -1,6 +1,6 @@
 'use strict';
 
-const {WebhookVerified} = require('jovo-framework');
+const {Webhook} = require('jovo-framework');
 const {app} = require('./app.js');
 
 // =================================================================================
@@ -10,11 +10,11 @@ const {app} = require('./app.js');
 if (app.isWebhook()) {
     const port = process.env.PORT || 3000;
 
-    WebhookVerified.post('/webhook', (req, res) => {
+    Webhook.post('/webhook', (req, res) => {
         app.handleWebhook(req, res);
     });
 
-    WebhookVerified.listen(port, () => {
+    Webhook.listen(port, () => {
         console.log(`Example server listening on port ${port}!`);
     });
 }
