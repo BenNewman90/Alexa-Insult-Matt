@@ -19,24 +19,24 @@ const app = new App(config);
 var insults = [
   "Matt, you think you are full of Northern Wisdom. Riddle me this. What has girly blonde hair and is full of bull shit. Do you know the answer? It's you, you cunt!",
 
-  "Matt, or shall I call you AbuMustafa. You're not a local, shut up and sit down.",
+  "Matt, or shall I call you AbuMustafa. You're not a local, shut up and sit down",
 
   "You are always going on about how client facing you are. Do you want to face some hard truths? You're a cunt!",
 
-  "Sarcasm is the lowest form of humour...Except for your shit puns, they are definitely worse.",
+  "Sarcasm is the lowest form of humour...Except for your shit puns, they are definitely worse",
 
-  "You are weak as shit. Sol said that you are the weakest boy in the class and that she would definitely own you in an arm wrestle. You're pathetic. Insect.",
+  "You are weak as shit. Sol said that you are the weakest boy in the class and that she would definitely own you in an arm wrestle. You're pathetic. Insect",
 
   "I hear that you are from Hull. European city of culture? Don't make me laugh! ha!",
 
-  "you are in your early thirties and you don't know how to cook. Get a life.",
+  "you are in your early thirties and you don't know how to cook. Get a life",
 
-  "We make jokes, but deep down I think really highly of you. Unfortunately we think you are highly irritating.",
+  "We make jokes, but deep down I think really highly of you. Unfortunately we think you are highly irritating",
 
-  "The only good thing I can say about you are your tight presentations. Only joking. You come across sleezy."
+  "The only good thing I can say about you are your tight presentations. Only joking. You come across sleezy"
 ];
 var linkers = [
-    "Mr pathetic, Do you want some more?",
+    "Do you want some more? Bint.",
 
     "Can you handle another you slippery fuck?",
 
