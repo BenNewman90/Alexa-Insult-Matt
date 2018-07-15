@@ -5,20 +5,17 @@
 			"data": {},
 			"metaData": {
 				"createdAt": "2018-07-15T19:17:32.756Z",
-				"lastUsedAt": "2018-07-15T20:21:23.814Z",
-				"sessionsCount": 5
+				"lastUsedAt": "2018-07-15T21:12:44.948Z",
+				"sessionsCount": 6
 			},
 			"context": {
 				"prev": [
 					{
 						"request": {
-							"intent": "LAUNCH",
-							"timestamp": "2018-07-15T20:21:22Z"
+							"intent": "AMAZON.StopIntent",
+							"timestamp": "2018-07-15T21:12:44Z"
 						},
-						"response": {
-							"speech": "Welcome to Insult Matt! Matt is an interesting character. Who would like to insult him?",
-							"reprompt": "Tell me your name dooch."
-						}
+						"response": {}
 					}
 				]
 			}
