@@ -32,8 +32,8 @@ var insults = [
 var linkers = [
     "Do you want some more?",
     "Can you handle another you slippery fucker?",
-    ""
-]
+    "x"
+];
 
 app.setHandler({
     'LAUNCH': function() {
